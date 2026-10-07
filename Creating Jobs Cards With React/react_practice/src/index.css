@@ -1,0 +1,44 @@
+.parent {
+    height: 100vh;
+    width:100%;
+    background-color:black;
+    padding:30px;
+}
+.card{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card .top{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.top img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #dadada;
+   
+}
+.top button{
+    display: flex;
+    align-items: center;
+    border: 1px solid #dadada;
+    padding: 4px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top:1px solid #b1b1b1 ;
+}
